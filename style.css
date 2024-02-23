@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.head{
+    padding: 0px;
+    color: #865DFF;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 30px;
+    display: flex;
+    margin-top: 140px;
+    justify-content: center;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
+.parent{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-rows: repeat(5,80px); or below this, both are same */
+    grid-auto-rows: 80px;
+    width: 500px;
+    
+    /* padding: 40px 18px;    */
+    
+}
+.button{
+    border: 1px solid black;
+    background-color: #d4d4d4;
+    color: white;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 30px;
+}
+.button:hover{
+    background-color: #c4c4c4;
+}
+.output{
+    grid-column: 1/5;
+    background-color: #1c1c1c;
+    color: white;
+    display: grid;
+    
+    justify-content: center;
+    align-content: end;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 30px;
+    
+}
+.zero{
+    grid-column: 1/3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 55px;
+}
+.button:hover{
+ cursor: pointer;
+}
+.orange{
+    background-color: #865DFF;
+}
+.orange:hover{
+    background-color: #794dfe;
+}
+.hgray{
+    background-color: #505050;
+}
+.hgray:hover{
+    background-color: #444444;
+}
+.footer{
+    color: #d4d4d4;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 20px;
+}
+.footer > a{
+    margin-left: 4px;
+    text-decoration: none;
+    color: #865DFF;
+}
+.footer > a:hover, .head:hover{
+color: #505050;
+}
